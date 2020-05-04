@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{1AD117F9-52D0-4E06-B6BC-ADBBC2D94D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E2BDB25E-2AE4-4DCE-960B-015925D07936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C8AA2796-5803-4A9D-8656-0BB09021DD85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AD117F9-52D0-4E06-B6BC-ADBBC2D94D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD117F9-52D0-4E06-B6BC-ADBBC2D94D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD117F9-52D0-4E06-B6BC-ADBBC2D94D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD117F9-52D0-4E06-B6BC-ADBBC2D94D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BDB25E-2AE4-4DCE-960B-015925D07936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BDB25E-2AE4-4DCE-960B-015925D07936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BDB25E-2AE4-4DCE-960B-015925D07936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BDB25E-2AE4-4DCE-960B-015925D07936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8AA2796-5803-4A9D-8656-0BB09021DD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AA2796-5803-4A9D-8656-0BB09021DD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AA2796-5803-4A9D-8656-0BB09021DD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AA2796-5803-4A9D-8656-0BB09021DD85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FE06906-5EDB-4083-BF0B-5F3B86A303AD}
+	EndGlobalSection
+EndGlobal
