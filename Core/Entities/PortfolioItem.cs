@@ -1,8 +1,8 @@
 ﻿namespace Core.Entities
 {
-    class MyPortfolioItems : EnitityBase
+    public class PortfolioItem : EnitityBase
     {
-        public string  ProjectName { get; set; }
+        public string ProjectName { get; set; }
         public string Description { get; set; }
         public string ImageUrl { get; set; }
     }
