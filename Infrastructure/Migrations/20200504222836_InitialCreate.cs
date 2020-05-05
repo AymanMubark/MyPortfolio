@@ -59,7 +59,7 @@ namespace Infrastructure.Migrations
             migrationBuilder.InsertData(
                 table: "Owner",
                 columns: new[] { "Id", "AddressId", "Avatar", "FullName", "Profil" },
-                values: new object[] { new Guid("7e6c2bcf-f88d-44fd-b854-99b402af99a5"), null, "avata.png", "Khaled ESSAADANI", ".Net Developer" });
+                values: new object[] { new Guid("7e6c2bcf-f88d-44fd-b854-99b402af99a5"), null, "avatar.jpg", "Ayman MUBARAK", ".Net Developer" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Owner_AddressId",

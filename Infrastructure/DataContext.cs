@@ -20,8 +20,8 @@ namespace Infrastructure
             modelBuilder.Entity<Owner>().HasData(new Owner
             {
                 Id = Guid.NewGuid(),
-                Avatar = "avata.png",
-                FullName = "Khaled ESSAADANI",
+                Avatar = "avatar.jpg",
+                FullName = "Ayman MUBARAK",
                 Profil = ".Net Developer"
             });
         }

@@ -68,8 +68,8 @@ namespace Infrastructure.Migrations
                         new
                         {
                             Id = new Guid("7e6c2bcf-f88d-44fd-b854-99b402af99a5"),
-                            Avatar = "avata.png",
-                            FullName = "Khaled ESSAADANI",
+                            Avatar = "avatar.jpg",
+                            FullName = "Ayman MUBARAK",
                             Profil = ".Net Developer"
                         });
                 });
